@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.editor-container, .preview-container {
+  width: 45%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#editor {
+  height: 85vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: monospace;
+  resize: vertical;
+  width: 100%;
+}
+
+#preview {
+  height: 85vh;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  overflow-y: auto;
+  resize: vertical;
+  width: 100%;
+}
